@@ -2,6 +2,7 @@ import * as React from "react"
 import "../styles/style.css"
 
 export default function Home() {
+
   return <div>
 
 {/* <!-- Page --> */}
@@ -268,7 +269,7 @@ export default function Home() {
             {/* <!--/Section --> */}
 
             {/* <!--Section--> */}
-            <div id="secondSec" style="background: #131313; padding: 150px 0" class="section no-margin">
+            <div id="secondSec" style={{background: "#131313", padding: "150px 0"}} class= "section no-margin">
 
                 {/* <!--Wrapper--> */}
                 <div class="wrapper-small">
@@ -279,7 +280,7 @@ export default function Home() {
                         {/* <!--Text Wrapper--> */}
                         <div class="text-wrapper">
 
-                            <h2 class="has-anim" data-stagger="0.1" data-duration="1" data-delay=".1" data-animation="linesUp" style="color: #fff">
+                            <h2 class="has-anim" data-stagger="0.1" data-duration="1" data-delay=".1" data-animation="linesUp" style={{color: '#fff'}}>
                                 The carbon in our apple pies another world cosmos cosmic ocean something incredible is waiting to be known astonishment. From which we spring concept of the number one bits of moving fluff two ghostly white figures in coveralls and helmets are softly dancing stirred by starlight star stuff harvesting star light.
                             </h2>
 
@@ -295,7 +296,7 @@ export default function Home() {
                         {/* <!--Text Wrapper--> */}
                         <div class="text-wrapper">
 
-                            <h5 class="has-anim" data-stagger="0.1" data-duration="1" data-delay=".1" data-animation="linesUp" style="color: hsla(0,0%,100%,.4)">
+                            <h5 class="has-anim" data-stagger="0.1" data-duration="1" data-delay=".1" data-animation="linesUp" style={{color: "hsla(0,0%,100%,.4)"}}>
                                 Strategy
                                 <br/>Brand Identities
                                 <br/>Art Direction
@@ -317,7 +318,7 @@ export default function Home() {
                         {/* <!--Text Wrapper--> */}
                         <div class="text-wrapper">
 
-                            <h5 class="has-anim" data-stagger="0.1" data-duration="1" data-delay=".1" data-animation="linesUp" style="color: hsla(0,0%,100%,.4)">
+                            <h5 class="has-anim" data-stagger="0.1" data-duration="1" data-delay=".1" data-animation="linesUp" style={{color: "hsla(0,0%,100%,.4)"}}>
                                 With pretty stories for which there's little good evidence Tunguska event light years finite but unbounded the only home we've ever known cosmic ocean? Extraordinary claims require extraordinary evidence shores of the cosmic ocean stirred by starlight Apollonius of Perga extraordinary claims require extraordinary evidence stirred by starlight. A mote of dust suspended in a sunbeam extraplanetary made in the interiors of collapsing stars from which we spring extraordinary claims require extraordinary evidence extraplanetary and billions upon billions upon billions upon billions upon billions upon billions upon billions.
 
 
@@ -583,7 +584,7 @@ export default function Home() {
                     {/* <!--Column--> */}
                     <div class="c-col-8">
 
-                        <span class="a-empty-space" style="height: 150px"></span>
+                        <span class="a-empty-space" style={{height: "150px"}}></span>
 
                         {/* <!--Testimonials--> */}
                         <div class="a-testimonials autoplay">
@@ -682,7 +683,7 @@ export default function Home() {
                         </div>
                         {/* <!--/Testimonials--> */}
 
-                        <span class="a-empty-space" style="height: 50px"></span>
+                        <span class="a-empty-space" style={{height: "50px"}}></span>
 {/* 
                         <!--Button--> */}
                         <div class="a-button style_1 light">
@@ -718,7 +719,7 @@ export default function Home() {
                     <div class="c-col-12 no-gap no-margin">
 
                         {/* <!-- Page Nav --> */}
-                        <div class="alioth-page-nav" style="background-color: #f1f1f1">
+                        <div class="alioth-page-nav" style={{backgroundColor : "#f1f1f1"}}>
 
                             {/* <!--Page URL--> */}
                             <a href="works.html">
